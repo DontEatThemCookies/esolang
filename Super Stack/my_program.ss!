@@ -1,0 +1,7 @@
+1 if
+    pop `pops the "1" value assigned at the beginning of the loop
+    82
+    debug
+    96
+    debug
+0 fi
