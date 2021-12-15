@@ -153,7 +153,7 @@ try:
         open(sys.argv[1]).read(),
         '-d' in sys.argv  # debug
     )
-except IOError:
+except OSError: # previously IOError
     print('Cannot read file', sys.argv[1])
 except IndexError:
     usage()
