@@ -1,7 +1,2 @@
-1 if
-    pop `pops the "1" value assigned at the beginning of the loop
-    82
-    debug
-    96
-    debug
-0 fi
+0 33 100 108 114 111 87 32 44 111 108 108 101 72
+if outputascii fi
