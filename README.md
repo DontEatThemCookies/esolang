@@ -4,4 +4,4 @@ An esoteric language is a programming language not intended for serious, real-wo
 
 All works in this repository are licensed under the terms of the MIT License, and provided with NO WARRANTY whatsoever.
 
-[ Looking for the HQ9+ implementation?](https://github.com/DontEatThemCookies/HQ9)
+[ Looking for the HQ9+ implementations?](https://github.com/DontEatThemCookies/HQ9)
