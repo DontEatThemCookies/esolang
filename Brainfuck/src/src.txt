@@ -1,0 +1,7 @@
+REGULAR BRAINFUCK INTERPRETER - Source
+
+This directory contains the RBFI source code (rbfi.py), as well
+as a sample Hello World script in Brainfuck.
+
+Syntax: py rbfi.py [filename]
+Example: py rbfi.py script.bf

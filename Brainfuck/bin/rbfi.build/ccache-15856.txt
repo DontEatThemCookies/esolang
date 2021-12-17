@@ -1,0 +1,550 @@
+[2021-12-17T15:02:46.951886 12204] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:46.951886 12204] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) base_dir = 
+[2021-12-17T15:02:46.951886 12204] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:46.951886 12204] Config: (default) compiler = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:46.951886 12204] Config: (default) compiler_type = auto
+[2021-12-17T15:02:46.951886 12204] Config: (default) compression = true
+[2021-12-17T15:02:46.951886 12204] Config: (default) compression_level = 0
+[2021-12-17T15:02:46.951886 12204] Config: (default) cpp_extension = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) debug = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) debug_dir = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) depend_mode = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) direct_mode = true
+[2021-12-17T15:02:46.951886 12204] Config: (default) disable = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) file_clone = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) hard_link = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) hash_dir = true
+[2021-12-17T15:02:46.951886 12204] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) ignore_options = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) inode_cache = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:46.951886 12204] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:46.951886 12204] Config: (default) max_files = 0
+[2021-12-17T15:02:46.951886 12204] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:46.951886 12204] Config: (default) path = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) prefix_command = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) read_only = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) read_only_direct = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) recache = false
+[2021-12-17T15:02:46.951886 12204] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:46.951886 12204] Config: (default) sloppiness = 
+[2021-12-17T15:02:46.951886 12204] Config: (default) stats = true
+[2021-12-17T15:02:46.951886 12204] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:46.951886 12204] Config: (default) umask = 
+[2021-12-17T15:02:46.952362 12204] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2021-12-17T15:02:46.954180 12204] Hostname: unknown
+[2021-12-17T15:02:46.954243 12204] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:46.954326 12204] Compiler type: gcc
+[2021-12-17T15:02:46.954955 12204] Source file: __constants.c
+[2021-12-17T15:02:46.954998 12204] Object file: __constants.o
+[2021-12-17T15:02:46.955233 12204] Trying direct lookup
+[2021-12-17T15:02:46.955833 12204] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/8/1frivj3p4tm95mss2ukk6vka2puouheM
+[2021-12-17T15:02:46.975329 15764] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:46.975329 15764] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) base_dir = 
+[2021-12-17T15:02:46.975329 15764] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:46.975329 15764] Config: (default) compiler = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:46.975329 15764] Config: (default) compiler_type = auto
+[2021-12-17T15:02:46.975329 15764] Config: (default) compression = true
+[2021-12-17T15:02:46.975329 15764] Config: (default) compression_level = 0
+[2021-12-17T15:02:46.975329 15764] Config: (default) cpp_extension = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) debug = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) debug_dir = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) depend_mode = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) direct_mode = true
+[2021-12-17T15:02:46.975329 15764] Config: (default) disable = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) file_clone = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) hard_link = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) hash_dir = true
+[2021-12-17T15:02:46.975329 15764] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) ignore_options = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) inode_cache = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:46.975329 15764] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:46.975329 15764] Config: (default) max_files = 0
+[2021-12-17T15:02:46.975329 15764] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:46.975329 15764] Config: (default) path = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) prefix_command = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) read_only = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) read_only_direct = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) recache = false
+[2021-12-17T15:02:46.975329 15764] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:46.975329 15764] Config: (default) sloppiness = 
+[2021-12-17T15:02:46.975329 15764] Config: (default) stats = true
+[2021-12-17T15:02:46.975329 15764] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:46.975329 15764] Config: (default) umask = 
+[2021-12-17T15:02:46.975647 15764] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2021-12-17T15:02:46.975758 15764] Hostname: unknown
+[2021-12-17T15:02:46.975795 15764] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:46.975824 15764] Compiler type: gcc
+[2021-12-17T15:02:46.976488 15764] Source file: __helpers.c
+[2021-12-17T15:02:46.976554 15764] Object file: __helpers.o
+[2021-12-17T15:02:46.976790 15764] Trying direct lookup
+[2021-12-17T15:02:46.977278 15764] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/a/1a63j89nmu2rlvvs5091s5egrou2kt0M
+[2021-12-17T15:02:47.005367 10908] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.005367 10908] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) base_dir = 
+[2021-12-17T15:02:47.005367 10908] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.005367 10908] Config: (default) compiler = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.005367 10908] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.005367 10908] Config: (default) compression = true
+[2021-12-17T15:02:47.005367 10908] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.005367 10908] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) debug = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.005367 10908] Config: (default) disable = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) file_clone = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) hard_link = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.005367 10908] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.005367 10908] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.005367 10908] Config: (default) max_files = 0
+[2021-12-17T15:02:47.005367 10908] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.005367 10908] Config: (default) path = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) read_only = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) recache = false
+[2021-12-17T15:02:47.005367 10908] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.005367 10908] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.005367 10908] Config: (default) stats = true
+[2021-12-17T15:02:47.005367 10908] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.005367 10908] Config: (default) umask = 
+[2021-12-17T15:02:47.005743 10908] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2021-12-17T15:02:47.005878 10908] Hostname: unknown
+[2021-12-17T15:02:47.005947 10908] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.006000 10908] Compiler type: gcc
+[2021-12-17T15:02:47.006796 10908] Source file: __loader.c
+[2021-12-17T15:02:47.006853 10908] Object file: __loader.o
+[2021-12-17T15:02:47.007075 10908] Trying direct lookup
+[2021-12-17T15:02:47.007734 10908] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/9a1af5ctlh5jah76s94tmqmibv0aa0mM
+[2021-12-17T15:02:47.049763 10908] Got result name from manifest
+[2021-12-17T15:02:47.049962 10908] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/3/8eo3gcgqbg97b1ptsv2544l841r5os8R
+[2021-12-17T15:02:47.050521 10908] Reading embedded entry #0 .o (42323 bytes)
+[2021-12-17T15:02:47.050579 10908] Writing to __loader.o
+[2021-12-17T15:02:47.051850 10908] Succeeded getting cached result
+[2021-12-17T15:02:47.051939 10908] Result: cache hit (direct)
+[2021-12-17T15:02:47.052536 10908] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/3/stats.lock
+[2021-12-17T15:02:47.057093 10908] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/3/stats.lock
+[2021-12-17T15:02:47.070365 13592] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.070365 13592] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) base_dir = 
+[2021-12-17T15:02:47.070365 13592] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.070365 13592] Config: (default) compiler = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.070365 13592] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.070365 13592] Config: (default) compression = true
+[2021-12-17T15:02:47.070365 13592] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.070365 13592] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) debug = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.070365 13592] Config: (default) disable = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) file_clone = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) hard_link = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.070365 13592] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.070365 13592] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.070365 13592] Config: (default) max_files = 0
+[2021-12-17T15:02:47.070365 13592] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.070365 13592] Config: (default) path = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) read_only = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) recache = false
+[2021-12-17T15:02:47.070365 13592] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.070365 13592] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.070365 13592] Config: (default) stats = true
+[2021-12-17T15:02:47.070365 13592] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.070365 13592] Config: (default) umask = 
+[2021-12-17T15:02:47.070780 13592] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2021-12-17T15:02:47.070903 13592] Hostname: unknown
+[2021-12-17T15:02:47.070953 13592] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.070997 13592] Compiler type: gcc
+[2021-12-17T15:02:47.071810 13592] Source file: module.__main__.c
+[2021-12-17T15:02:47.071875 13592] Object file: module.__main__.o
+[2021-12-17T15:02:47.072182 13592] Trying direct lookup
+[2021-12-17T15:02:47.073043 13592] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/33vvfp6uj3qsj37r2hnk0qu78r2dfa4M
+[2021-12-17T15:02:47.081330 12204] Got result name from manifest
+[2021-12-17T15:02:47.081547 12204] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/61rh3cshbvdgc2lcob0lt1oi1ke8md6R
+[2021-12-17T15:02:47.081942 12204] Reading embedded entry #0 .o (2821 bytes)
+[2021-12-17T15:02:47.082011 12204] Writing to __constants.o
+[2021-12-17T15:02:47.083354 12204] Succeeded getting cached result
+[2021-12-17T15:02:47.083451 12204] Result: cache hit (direct)
+[2021-12-17T15:02:47.084050 12204] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/stats.lock
+[2021-12-17T15:02:47.088647 12204] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/stats.lock
+[2021-12-17T15:02:47.095110 15764] Got result name from manifest
+[2021-12-17T15:02:47.095518 15764] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/abb41aouahav3qecfgjjc63vufp1vf4R
+[2021-12-17T15:02:47.095986 15764] Reading embedded entry #0 .o (466 bytes)
+[2021-12-17T15:02:47.096060 15764] Writing to __helpers.o
+[2021-12-17T15:02:47.097838 15764] Succeeded getting cached result
+[2021-12-17T15:02:47.097958 15764] Result: cache hit (direct)
+[2021-12-17T15:02:47.098923 15764] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/stats.lock
+[2021-12-17T15:02:47.107141 15764] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/stats.lock
+[2021-12-17T15:02:47.138306 15796] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.138306 15796] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) base_dir = 
+[2021-12-17T15:02:47.138306 15796] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.138306 15796] Config: (default) compiler = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.138306 15796] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.138306 15796] Config: (default) compression = true
+[2021-12-17T15:02:47.138306 15796] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.138306 15796] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) debug = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.138306 15796] Config: (default) disable = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) file_clone = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) hard_link = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.138306 15796] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.138306 15796] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.138306 15796] Config: (default) max_files = 0
+[2021-12-17T15:02:47.138306 15796] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.138306 15796] Config: (default) path = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) read_only = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) recache = false
+[2021-12-17T15:02:47.138306 15796] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.138306 15796] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.138306 15796] Config: (default) stats = true
+[2021-12-17T15:02:47.138306 15796] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.138306 15796] Config: (default) umask = 
+[2021-12-17T15:02:47.138675 15796] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2021-12-17T15:02:47.138793 15796] Hostname: unknown
+[2021-12-17T15:02:47.138847 15796] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.138892 15796] Compiler type: gcc
+[2021-12-17T15:02:47.139726 15796] Source file: static_src\MainProgram.c
+[2021-12-17T15:02:47.139788 15796] Object file: static_src\MainProgram.o
+[2021-12-17T15:02:47.140017 15796] Trying direct lookup
+[2021-12-17T15:02:47.140560 15796] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/9/74vbtup8pnlj6bbbj8ral6nl2qeif0mM
+[2021-12-17T15:02:47.163153 8744 ] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) base_dir = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) compiler = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) compression = true
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) debug = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) disable = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) file_clone = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) hard_link = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.163153 8744 ] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) max_files = 0
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) path = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) read_only = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) recache = false
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) stats = true
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.163153 8744 ] Config: (default) umask = 
+[2021-12-17T15:02:47.163539 8744 ] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2021-12-17T15:02:47.163621 8744 ] Hostname: unknown
+[2021-12-17T15:02:47.163674 8744 ] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.163720 8744 ] Compiler type: gcc
+[2021-12-17T15:02:47.164517 8744 ] Source file: static_src\CompiledCellType.c
+[2021-12-17T15:02:47.164583 8744 ] Object file: static_src\CompiledCellType.o
+[2021-12-17T15:02:47.164816 8744 ] Trying direct lookup
+[2021-12-17T15:02:47.165441 8744 ] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/3/a2agrucuo7ft90g3okdlgj4psaoqhckM
+[2021-12-17T15:02:47.196765 13592] Got result name from manifest
+[2021-12-17T15:02:47.196974 13592] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/d/205fr85oapt9mjlvabpn2jf052gc114R
+[2021-12-17T15:02:47.197556 13592] Reading embedded entry #0 .o (32457 bytes)
+[2021-12-17T15:02:47.197636 13592] Writing to module.__main__.o
+[2021-12-17T15:02:47.200796 13592] Succeeded getting cached result
+[2021-12-17T15:02:47.200891 13592] Result: cache hit (direct)
+[2021-12-17T15:02:47.201489 13592] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/d/stats.lock
+[2021-12-17T15:02:47.205942 13592] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/d/stats.lock
+[2021-12-17T15:02:47.269767 8744 ] Got result name from manifest
+[2021-12-17T15:02:47.269980 15796] Got result name from manifest
+ppData\Local\Nuitka\Nuitka\Cache\ccache/8/3/ebhcupak52ibasc42ii35jkqen4feuaR
+[2021-12-17T15:02:47.270227 15796] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/9/2bcf0sduh0hirv7qe4ga5f018usu36gR
+[2021-12-17T15:02:47.270380 8744 ] Reading embedded entry #0 .o (5235 bytes)
+[2021-12-17T15:02:47.270442 8744 ] Writing to static_src\CompiledCellType.o
+[2021-12-17T15:02:47.270608 15796] Reading embedded entry #0 .o (6324 bytes)
+[2021-12-17T15:02:47.270668 15796] Writing to static_src\MainProgram.o
+[2021-12-17T15:02:47.271975 8744 ] Succeeded getting cached result
+[2021-12-17T15:02:47.272063 8744 ] Result: cache hit (direct)
+[2021-12-17T15:02:47.272159 15796] Succeeded getting cached result
+[2021-12-17T15:02:47.272234 15796] Result: cache hit (direct)
+[2021-12-17T15:02:47.272676 8744 ] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/3/stats.lock
+[2021-12-17T15:02:47.272855 15796] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/9/stats.lock
+[2021-12-17T15:02:47.277662 8744 ] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/3/stats.lock
+[2021-12-17T15:02:47.277769 15796] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/9/stats.lock
+[2021-12-17T15:02:47.522778 3744 ] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) base_dir = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) compiler = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) compression = true
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) debug = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) disable = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) file_clone = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) hard_link = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.522778 3744 ] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) max_files = 0
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) path = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) read_only = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) recache = false
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) stats = true
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.522778 3744 ] Config: (default) umask = 
+[2021-12-17T15:02:47.523413 3744 ] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2021-12-17T15:02:47.523573 3744 ] Hostname: unknown
+[2021-12-17T15:02:47.523619 3744 ] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.523670 3744 ] Compiler type: gcc
+[2021-12-17T15:02:47.524289 3744 ] Source file: static_src\CompiledFunctionType.c
+[2021-12-17T15:02:47.524335 3744 ] Object file: static_src\CompiledFunctionType.o
+[2021-12-17T15:02:47.524560 3744 ] Trying direct lookup
+[2021-12-17T15:02:47.525086 3744 ] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/44hko8e33r6o5cnmfucopmiurg331kgM
+[2021-12-17T15:02:47.559134 12368] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.559134 12368] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) base_dir = 
+[2021-12-17T15:02:47.559134 12368] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.559134 12368] Config: (default) compiler = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.559134 12368] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.559134 12368] Config: (default) compression = true
+[2021-12-17T15:02:47.559134 12368] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.559134 12368] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) debug = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.559134 12368] Config: (default) disable = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) file_clone = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) hard_link = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.559134 12368] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.559134 12368] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.559134 12368] Config: (default) max_files = 0
+[2021-12-17T15:02:47.559134 12368] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.559134 12368] Config: (default) path = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) read_only = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) recache = false
+[2021-12-17T15:02:47.559134 12368] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.559134 12368] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.559134 12368] Config: (default) stats = true
+[2021-12-17T15:02:47.559134 12368] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.559134 12368] Config: (default) umask = 
+[2021-12-17T15:02:47.559536 12368] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2021-12-17T15:02:47.559701 12368] Hostname: unknown
+[2021-12-17T15:02:47.559773 12368] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.559832 12368] Compiler type: gcc
+[2021-12-17T15:02:47.560603 12368] Source file: static_src\CompiledGeneratorType.c
+[2021-12-17T15:02:47.560663 12368] Object file: static_src\CompiledGeneratorType.o
+[2021-12-17T15:02:47.560899 12368] Trying direct lookup
+[2021-12-17T15:02:47.561544 12368] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/b40a9jnb497ea7cogcfii8c1ohm17saM
+[2021-12-17T15:02:47.666104 7500 ] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) base_dir = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) compiler = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) compression = true
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) debug = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) disable = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) file_clone = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) hard_link = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.666104 7500 ] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) max_files = 0
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) path = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) read_only = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) recache = false
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) stats = true
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.666104 7500 ] Config: (default) umask = 
+[2021-12-17T15:02:47.666601 7500 ] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2021-12-17T15:02:47.666677 7500 ] Hostname: unknown
+[2021-12-17T15:02:47.666727 7500 ] Working directory: C:/Users/markc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.666834 7500 ] Compiler type: gcc
+[2021-12-17T15:02:47.667617 7500 ] Source file: static_src\InspectPatcher.c
+[2021-12-17T15:02:47.667680 7500 ] Object file: static_src\InspectPatcher.o
+[2021-12-17T15:02:47.667918 7500 ] Trying direct lookup
+[2021-12-17T15:02:47.668436 7500 ] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/7/35vh8klte8nf8e7ludvunfbnqp0skvaM
+[2021-12-17T15:02:47.722693 11588] === CCACHE 4.3 STARTED =========================================
+[2021-12-17T15:02:47.722693 11588] Config: (default) absolute_paths_in_stderr = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) base_dir = 
+[2021-12-17T15:02:47.722693 11588] Config: (environment) cache_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-12-17T15:02:47.722693 11588] Config: (default) compiler = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) compiler_check = mtime
+[2021-12-17T15:02:47.722693 11588] Config: (default) compiler_type = auto
+[2021-12-17T15:02:47.722693 11588] Config: (default) compression = true
+[2021-12-17T15:02:47.722693 11588] Config: (default) compression_level = 0
+[2021-12-17T15:02:47.722693 11588] Config: (default) cpp_extension = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) debug = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) debug_dir = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) depend_mode = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) direct_mode = true
+[2021-12-17T15:02:47.722693 11588] Config: (default) disable = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) extra_files_to_hash = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) file_clone = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) hard_link = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) hash_dir = true
+[2021-12-17T15:02:47.722693 11588] Config: (default) ignore_headers_in_manifest = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) ignore_options = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) inode_cache = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) keep_comments_cpp = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) limit_multiple = 0.8
+[2021-12-17T15:02:47.722693 11588] Config: (environment) log_file = C:\Users\markc\Desktop\Coding\Python\esolang\brainfuck\bin\rbfi.build\ccache-15856.txt
+[2021-12-17T15:02:47.722693 11588] Config: (default) max_files = 0
+[2021-12-17T15:02:47.722693 11588] Config: (default) max_size = 5.0G
+[2021-12-17T15:02:47.722693 11588] Config: (default) path = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) pch_external_checksum = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) prefix_command = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) prefix_command_cpp = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) read_only = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) read_only_direct = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) recache = false
+[2021-12-17T15:02:47.722693 11588] Config: (default) run_second_cpp = true
+[2021-12-17T15:02:47.722693 11588] Config: (default) sloppiness = 
+[2021-12-17T15:02:47.722693 11588] Config: (default) stats = true
+[2021-12-17T15:02:47.722693 11588] Config: (default) temporary_dir = C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2021-12-17T15:02:47.722693 11588] Config: (default) umask = 
+[2021-12-17T15:02:47.723064 11588] Command line: C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\markc\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\markc\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\markc\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2021-12-17T15:02:47.723137 11588] Hostname: unknown
+[2021-12-17T15:02:47.723210 12368] Got result name from manifest
+kc/Desktop/Coding/Python/esolang/brainfuck/bin/rbfi.build
+[2021-12-17T15:02:47.723252 11588] Compiler type: gcc
+[2021-12-17T15:02:47.723489 12368] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/b5a1gvubldhdjj7te5h4c2m6snhvt8eR
+[2021-12-17T15:02:47.724184 11588] Source file: static_src\MetaPathBasedLoader.c
+[2021-12-17T15:02:47.724247 11588] Object file: static_src\MetaPathBasedLoader.o
+[2021-12-17T15:02:47.724307 12368] Reading embedded entry #0 .o (99590 bytes)
+[2021-12-17T15:02:47.724403 12368] Writing to static_src\CompiledGeneratorType.o
+[2021-12-17T15:02:47.724487 11588] Trying direct lookup
+[2021-12-17T15:02:47.725075 11588] Looking for result name in C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/e/a3tkk58vmeaqrm5j67pu3gv7kh4tr08M
+[2021-12-17T15:02:47.725972 12368] Succeeded getting cached result
+[2021-12-17T15:02:47.726082 12368] Result: cache hit (direct)
+[2021-12-17T15:02:47.726754 12368] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/stats.lock
+[2021-12-17T15:02:47.728356 3744 ] Got result name from manifest
+[2021-12-17T15:02:47.728565 3744 ] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/d5eqda7kc4ijvuhn3q65g0d24ai1uhoR
+[2021-12-17T15:02:47.729401 3744 ] Reading embedded entry #0 .o (821471 bytes)
+[2021-12-17T15:02:47.729484 3744 ] Writing to static_src\CompiledFunctionType.o
+[2021-12-17T15:02:47.732498 12368] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/stats.lock
+[2021-12-17T15:02:47.734874 3744 ] Succeeded getting cached result
+[2021-12-17T15:02:47.734967 3744 ] Result: cache hit (direct)
+[2021-12-17T15:02:47.735545 3744 ] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/stats.lock
+[2021-12-17T15:02:47.741151 3744 ] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/stats.lock
+[2021-12-17T15:02:47.855555 7500 ] Got result name from manifest
+[2021-12-17T15:02:47.855762 7500 ] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/d/4aj66sb5m665l6j39pb7qbqd4admq02R
+[2021-12-17T15:02:47.856189 7500 ] Reading embedded entry #0 .o (10086 bytes)
+[2021-12-17T15:02:47.856262 7500 ] Writing to static_src\InspectPatcher.o
+[2021-12-17T15:02:47.857752 7500 ] Succeeded getting cached result
+[2021-12-17T15:02:47.857851 7500 ] Result: cache hit (direct)
+[2021-12-17T15:02:47.858489 7500 ] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/d/stats.lock
+[2021-12-17T15:02:47.863270 7500 ] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/d/stats.lock
+[2021-12-17T15:02:47.873573 11588] Got result name from manifest
+[2021-12-17T15:02:47.873840 11588] Reading result C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/9bn3ghue2p6afgg5j11pcv9mp8q42seR
+[2021-12-17T15:02:47.874465 11588] Reading embedded entry #0 .o (23687 bytes)
+[2021-12-17T15:02:47.874552 11588] Writing to static_src\MetaPathBasedLoader.o
+[2021-12-17T15:02:47.876487 11588] Succeeded getting cached result
+[2021-12-17T15:02:47.876598 11588] Result: cache hit (direct)
+[2021-12-17T15:02:47.877271 11588] Acquired lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/stats.lock
+[2021-12-17T15:02:47.886055 11588] Releasing lock C:\Users\markc\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/stats.lock

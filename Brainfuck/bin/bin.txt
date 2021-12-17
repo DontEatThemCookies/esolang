@@ -1,0 +1,4 @@
+REGULAR BRAINFUCK INTERPRETER - Binaries
+
+The executable can be found in \rbfi.dist\rbfi.exe
+Compiled using Nuitka (https://nuitka.net/)
