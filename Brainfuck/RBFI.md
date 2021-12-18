@@ -1,7 +1,16 @@
 ## The Regular Brainfuck Interpreter
-#### Version 1.0 - December 17, 2021
+#### David Costell
+#### Version 1.1 - December 18, 2021
 
 ***
+
+Brainfuck is an esoteric imperative programming
+language invented by Urban Muller in the 1990s.
+It is a challenge to program in it, as its design
+is very minimal, with only a memory tape, pointer
+and eight instructions. Brainfuck is notable for being
+one of the most popular esoteric languages. It is also
+Turing-complete.
 
 The Regular Brainfuck Interpreter (RBFI) is, well, a
 regular Brainfuck interpreter. No special or unique
@@ -10,9 +19,12 @@ The RBFI's implementation is based on fabianishere's
 C interpreter(1) as well as the unofficial 
 specification(2) authored by  Sunjay Varma.
 
-RBFI should reasonably work with any Brainfuck program,
-but if you encounter an issue running one, you can
-e-mail me at: <davidcostell44@gmail.com>
+RBFI is NOT guaranteed to run any Brainfuck program
+without issues whatsoever. This is due to many details
+about Brainfuck being ambiguous and thus left to the
+implementer to decide the exact behavior. 
+If you encounter any issues, you can contact me at: 
+<davidcostell44@gmail.com>
 
 ***
 
@@ -38,13 +50,19 @@ rbfi [script filename]
 ***
 
 ### Changelog
+#### v1.1 | 12/18/2021
+* Added some exception catching
+* RBFI no longer explicitly removes any
+non-instruction characters, only ignores them. This
+also means RegEx is not used anymore.
+* Other minor changes
+
 #### v1.0 | 12/17/2021
 * Initial release
 
 ***
 
 ### License
-
 ```txt
 Copyright (c) 2021 David Costell <davidcostell44@gmail.com>
 
