@@ -4,6 +4,7 @@ An esoteric language is a programming language not intended for serious, real-wo
 
 [The Esolang Wiki](https://www.esolangs.org/) is a good place to learn about esoteric programming.
 
+Current languages:
 | Language    | License      |   
 | ----------- | -----------  |
 | Brainfuck (RBFI)           | MIT          |
