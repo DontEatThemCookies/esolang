@@ -8,6 +8,6 @@ Current Languages:
 * Brainfuck
 * Super Stack!
 
-Copyright 2021 David Costell. All works in this repository are licensed under the terms of the MIT License, and provided with NO WARRANTY whatsoever.
+Copyright 2021 David Costell. All works in this repository are licensed under the terms of the MIT License **UNLESS SPECIFIED OTHERWISE**, and provided with **NO WARRANTY** whatsoever.
 
 [Looking for the HQ9+ implementations?](https://github.com/DontEatThemCookies/HQ9)
