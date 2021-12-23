@@ -5,9 +5,9 @@ An esoteric language is a programming language not intended for serious, real-wo
 [The Esolang Wiki](https://www.esolangs.org/) is a good place to learn about esoteric programming.
 
 Current Languages:
-* Brainfuck
-* Super Stack!
+* Brainfuck (MIT)
+* Super Stack! (WTFPL)
 
-Copyright 2021 David Costell. All works in this repository are licensed under the terms of the MIT License **UNLESS SPECIFIED OTHERWISE**, and provided with **NO WARRANTY** whatsoever.
+Copyright 2021 David Costell. All works in this repository are licensed under the terms of either the **MIT License** or the **Do What The Fuck You Want To Public License v2**, and provided with **NO WARRANTY** whatsoever.
 
 [Looking for the HQ9+ implementations?](https://github.com/DontEatThemCookies/HQ9)
