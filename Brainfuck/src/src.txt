@@ -1,8 +1,10 @@
 REGULAR BRAINFUCK INTERPRETER - Source
 
-Version 1.1
+Version 1.2
 This directory contains the RBFI source code (rbfi.py), as well
 as a sample Hello World script in Brainfuck (script.bf).
 
-Syntax: py rbfi.py [filename]
+Syntax: py rbfi.py [-h] [-d] [filename]
+        -d is a flag for basic debugging.
+        -h displays help.
 Example: py rbfi.py script.bf

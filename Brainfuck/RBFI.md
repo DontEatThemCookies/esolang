@@ -1,6 +1,6 @@
 ## The Regular Brainfuck Interpreter
 #### David Costell
-#### Version 1.1 - December 18, 2021
+#### Version 1.2 - December 27, 2021
 
 ***
 
@@ -14,10 +14,10 @@ Turing-complete.
 
 The Regular Brainfuck Interpreter (RBFI) is, well, a
 regular Brainfuck interpreter. No special or unique
-tricks, it's a good ol' interpreter that just works.
-The RBFI's implementation is based on fabianishere's
-C interpreter(1) as well as the unofficial 
-specification(2) authored by  Sunjay Varma.
+tricks, it's a good old interpreter that works.
+The RBFI's implementation is influenced by 
+fabianishere's C interpreter(1) as well as the 
+unofficial specification(2) authored by Sunjay Varma.
 
 RBFI is NOT guaranteed to run any Brainfuck program
 without issues whatsoever. This is due to many details
@@ -38,18 +38,40 @@ If you encounter any issues, you can contact me at:
 Python 3.6 or higher is required to run RBFI. \
 For Windows users, a standalone .exe file
 is also available. \
-Syntax:
+For users of other OSes, you can build it yourself
+using Nuitka if you somehow want RBFI as a binary:
+```sh
+# assuming you are in the \Brainfuck directory
+python3 -mnuitka --follow-imports --standalone src\rbfi.py
+# the resulting binary can be found in rbfi.dist
+```
+
+The syntax:
 ```sh
 # Python script
-$ py rbfi.py [script filename]
+$ py rbfi.py [-h] [-d] [BF script filename]
 
 # Windows executable
-rbfi [script filename]
+> rbfi [-h] [-d] [BF script filename]
 ```
+**Required**: \
+`BF script filename` - The Brainfuck program to
+interpret.
+
+**Optional**: \
+`-d` - For debugging purposes \
+`-h` - Displays help
 
 ***
 
 ### Changelog
+#### v1.2 | 12/27/2021
+* Enhanced argument parsing (argparse)
+  * Added debug flag argument (-d) \
+    This provides basic debugging details upon \
+    completing execution of the Brainfuck program.
+* Other miscellaneous changes
+
 #### v1.1 | 12/18/2021
 * Added some exception catching
 * RBFI no longer explicitly removes any

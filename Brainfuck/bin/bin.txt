@@ -1,5 +1,12 @@
 REGULAR BRAINFUCK INTERPRETER - Binaries
 
-Version 1.1
-The executable can be found in \rbfi.dist\rbfi.exe
+Version 1.2
+This directory contains the rbfi.exe
+executable provided for Windows users.
+
+Syntax: rbfi [-h] [-d] [filename]
+        -d is a flag for basic debugging.
+        -h displays help.
+Example: rbfi script.bf
+
 Compiled using Nuitka (https://nuitka.net/)

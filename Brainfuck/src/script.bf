@@ -1,5 +1,7 @@
 A standard Hello World script
-RBFI supports multi line code
+RBFI supports multiline code just as any
+reasonable Brainfuck interpreter should
+
 Outputs "Hello World!"
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++
 . H
@@ -24,5 +26,4 @@ Outputs "Hello World!"
 . d
 >+
 . !
-
->.
+>. (Newline)
