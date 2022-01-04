@@ -1,6 +1,6 @@
 ## The Regular Brainfuck Interpreter
 #### David Costell
-#### Version 1.2 - December 27, 2021
+#### Version 1.2.1 - January 4, 2022
 
 ***
 
@@ -41,15 +41,15 @@ is also available. \
 For users of other OSes, you can build it yourself
 using Nuitka if you somehow want RBFI as a binary:
 ```sh
-# assuming you are in the \Brainfuck directory
-python3 -mnuitka --follow-imports --standalone src\rbfi.py
-# the resulting binary can be found in rbfi.dist
+# assuming you are in the /Brainfuck directory
+python3 -mnuitka --follow-imports --onefile src\rbfi.py
+# the resulting binary can be found in working dir
 ```
 
 The syntax:
 ```sh
 # Python script
-$ py rbfi.py [-h] [-d] [BF script filename]
+$ python3 rbfi.py [-h] [-d] [BF script filename]
 
 # Windows executable
 > rbfi [-h] [-d] [BF script filename]
@@ -65,6 +65,16 @@ interpret.
 ***
 
 ### Changelog
+#### v.1.2.1 | 01/04/2022
+* This version is a Minor Patch
+  * An extra newline will now be printed upon program \
+    termination in order for proper text formatting
+  * Added additional exception catch for OSError, usually \
+    indicating that the specified file cannot be accessed
+  * Converted rbfi.py from CRLF to LF
+  * This release does NOT include an updated executable for \
+    Windows users
+
 #### v1.2 | 12/27/2021
 * Enhanced argument parsing (argparse)
   * Added debug flag argument (-d) \

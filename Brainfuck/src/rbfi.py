@@ -1,7 +1,7 @@
 """
 David Costell's Regular Brainfuck Interpreter [RBFI]
 Your run-of-the-mill, not-so-special Brainfuck implementation
-Version 1.2 - Finalized December 27, 2021
+Version 1.2.1 - Finalized January 4, 2022
 
 This work is licensed under the MIT License. See the LICENSE file for details.
 """
@@ -14,6 +14,7 @@ args=parser.parse_args()
 
 try: file = open(args.file)                          # Get file from args
 except FileNotFoundError: sys.exit(print("rbfi: The specified file was not found"))
+except OSError: sys.exit(print("rbfi: Couldn't access the specified file (OSError)"))
 
 array = [0]*30000                                    # Initialize the array (memory tape of 30,000 cells)
 l = len(array)                                       # Get length of the array
@@ -43,8 +44,9 @@ while codepos < len(code):                           # Iterate through the instr
         sys.exit(print(f"rbfi: Runtime exception ({type(error).__name__})", error, sep="\n"))
 
 if args.d:                                                      # Debug mode
-    print("-" * 55, "RBFI - Debugging details",
+    print("", "-" * 55, "RBFI - Debugging details",
      f"Pointer position [Zero-indexed]: {str(ptr)}",
      f"Pointer cell value: {array[ptr]}", "Tape (first 50 cells):",
      sep="\n")
-    for byte in array[:50]: print("[" + str(byte) + "]", end="")
+    for byte in array[:50]: print(f"[{byte}]", end="")
+    print("")                                                   # Newline
