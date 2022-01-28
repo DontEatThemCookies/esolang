@@ -8,10 +8,9 @@ Current languages:
 | Language    | License      |   
 | ----------- | -----------  |
 | Brainfuck (RBFI)           | MIT          |
+| Brainfuck 4 Humans (bf4h)  | WTFPL        |
 | Super Stack! for Python3   | WTFPL        |
 
 Copyright 2021 David Costell. All works in this repository are licensed under the terms of either the **MIT License** or the **Do What The Fuck You Want To Public License v2**, and provided with **NO WARRANTY** whatsoever.
-
-`SPDX-License-Identifier: MIT OR WTFPL`
 
 [Looking for the HQ9+ implementations?](https://github.com/DontEatThemCookies/HQ9)
