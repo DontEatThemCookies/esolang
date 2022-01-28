@@ -83,7 +83,7 @@ sep = '' # can be ''/colon/semicolon/newline
 strg = 'your brainfuck code here'
 
 # Separate strings based on separator, then do the translation of symbols with .replace()
-output = sep.join(c if (i + 1) % 1 else e + ' ' for (i, c) in enumerate(list(strg)))
+output = sep.join(c if (i + 1) % 1 else c + ' ' for (i, c) in enumerate(list(strg)))
 .replace('<', 'left').replace('>', 'right').replace('+', 'incr').replace('-', 'decr')
 .replace('.','out').replace(',', 'inp').replace('[', 'loop(').replace(']', ')').strip()
 ```
