@@ -77,13 +77,13 @@ in Python (version 3.6+ required.) bf4hc cleanly transpiles to plain Brainfuck.
 It's licensed under the terms of the WTFPL by David Costell (the author of this spec.)
 
 ## Miscellaneous
-This is a code snippet to convert plain Brainfuck to bf4h
+This is a code snippet to convert plain Brainfuck to bf4h.
+For optimal results, remove any non-instruction symbols in your BF code (such as comments)
 ```py
-sep = '' # can be ''/colon/semicolon/newline
 strg = 'your brainfuck code here'
 
-# Separate strings based on separator, then do the translation of symbols with .replace()
-output = sep.join(c if (i + 1) % 1 else c + ' ' for (i, c) in enumerate(list(strg)))
+# Separate instructions with whitespace then do the translation of symbols with .replace()
+output = ''.join(c if (i + 1) % 1 else c + ' ' for (i, c) in enumerate(list(strg)))
 .replace('<', 'left').replace('>', 'right').replace('+', 'incr').replace('-', 'decr')
 .replace('.','out').replace(',', 'inp').replace('[', 'loop(').replace(']', ')').strip()
 ```
