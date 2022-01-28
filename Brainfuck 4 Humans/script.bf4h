@@ -1,0 +1,41 @@
+// "Hello World!" in bf4h
+// Translated instruction-for-instruction from the Wikipedia sample
+
+incr incr incr incr incr incr incr incr loop( 
+    // These fancy loop() indents are not required, by the way!
+    right incr incr incr incr 
+    loop( 
+        right incr incr right incr incr incr right incr 
+        incr incr right incr left left left left decr 
+    ) 
+    right incr right incr right decr right right incr loop(
+    left 
+    ) 
+    left decr 
+) 
+right right
+out                                     "H"
+right decr decr decr 
+out                                     "e"
+incr incr incr incr incr incr incr 
+out out                                 "ll" 
+incr incr incr 
+out                                     "o"
+right right 
+out                                     [Whitespace] ASCII 32
+left decr 
+out                                     "W"
+left 
+out                                     "o"
+incr incr incr 
+out                                     "r"
+decr decr decr decr decr decr 
+out                                     "l"
+decr decr decr decr decr decr decr decr 
+out                                     "d"
+right right incr 
+out                                     "!"
+right;incr 
+incr
+out                                     [Newline] ASCII 10
+loop(;decr:)
