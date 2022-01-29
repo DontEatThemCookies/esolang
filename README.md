@@ -9,6 +9,7 @@ Current languages:
 | ----------- | -----------  |
 | Brainfuck (RBFI)           | MIT          |
 | Brainfuck 4 Humans (bf4h)  | WTFPL        |
+| Deadfish Interpreter       | WTFPL        |
 | Super Stack! for Python3   | WTFPL        |
 
 Copyright 2021 David Costell. All works in this repository are licensed under the terms of either the **MIT License** or the **Do What The Fuck You Want To Public License v2**, and provided with **NO WARRANTY** whatsoever.

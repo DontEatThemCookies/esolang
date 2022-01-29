@@ -1,0 +1,6 @@
+Test Cases for Deadfish Implementations
+Note: All tests assume accumulator is set to 0 (such as when the interpreter launches)
+
+iissso - Expected result "0"
+diissisdo - Expected result "288"
+iissisdddddddddddddddddddddddddddddddddo - Expected result "0"
