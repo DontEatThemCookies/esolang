@@ -1,9 +1,9 @@
 """
 David Costell's Regular Brainfuck Interpreter [RBFI]
 Your run-of-the-mill, not-so-special Brainfuck implementation
-Version 1.2.1 - Finalized January 4, 2022
+Version 1.2.2 - Finalized January 30, 2022
 
-This work is licensed under the MIT License. See the LICENSE file for details.
+Licensed under the WTFPL. Do whatever with it
 """
 import sys, argparse                                 # Imports
 

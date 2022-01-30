@@ -1,6 +1,6 @@
 ## The Regular Brainfuck Interpreter
 #### David Costell
-#### Version 1.2.1 - January 4, 2022
+#### Version 1.2.2 - January 30, 2022
 
 ***
 
@@ -65,6 +65,10 @@ interpret.
 ***
 
 ### Changelog
+#### v.1.2.2 | 01/30/2022
+* This version is a Minor Patch
+  * Re-licensed under the terms of the WTFPL
+   
 #### v.1.2.1 | 01/04/2022
 * This version is a Minor Patch
   * An extra newline will now be printed upon program \
