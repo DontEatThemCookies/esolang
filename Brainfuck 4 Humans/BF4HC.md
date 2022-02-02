@@ -19,6 +19,15 @@ Example usage:
 $ python3 bf4hc.py program.bf4h -o output.bf
 ```
 
+## Changelog
+
+#### v1.1 - February 02, 2022
+* Added syntax validation for loop( and ) {which is [ and ] in plain BF}
+* Minor optimizations
+
+#### v1 - January 28, 2022
+* Initial release
+
 ## License
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE

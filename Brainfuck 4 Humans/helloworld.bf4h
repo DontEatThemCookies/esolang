@@ -1,5 +1,5 @@
 // "Hello World!" in bf4h
-// Translated instruction-for-instruction from the Wikipedia sample
+// Translated instruction-for-instruction from the Wikipedia page for brainfuck
 
 incr incr incr incr incr incr incr incr loop( 
     // These fancy loop() indents are not required, by the way!

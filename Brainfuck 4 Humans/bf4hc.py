@@ -1,7 +1,7 @@
 """
 bf4hc - brainfuck for humans compiler
-Transpiler-based esoteric language targetting Brainfuck
-Version 1.0 - 28th of January, 2022
+Transpiler for the "human-friendly" Brainfuck derivative
+Version 1.1 - 2nd of February, 2022
 
 Copyright © 2022 David Costell <davidcostell44@gmail.com>
 This work is free. You can redistribute it and/or modify it under the
@@ -11,7 +11,7 @@ as published by Sam Hocevar. See the COPYING file for more details.
 import argparse, pathlib, os
 
 # Argparse setup
-parser = argparse.ArgumentParser(description='bf4hc - brainfuck for humans compiler v1')
+parser = argparse.ArgumentParser(description='bf4hc - brainfuck for humans compiler v1.1')
 parser.add_argument('file', help='transcompilation target (the file to compile)')
 parser.add_argument('-o', help='optional filename for output program', default='')
 args = parser.parse_args()
@@ -22,6 +22,7 @@ if not os.path.exists(args.file):
 
 # Translation table ('BF4H':'BF') 
 table = {
+    # Standard instructions
     'left':'<',
     'right':'>',
     'incr':'+',
@@ -40,10 +41,19 @@ with open(args.file, 'r') as inputfile:
     .replace('\r', '').replace('\n', ' ').replace('\t', ' ')
     .replace(':', ' ').replace(';', ' ').strip().split() if line != ''
     if not line.strip().startswith('//')]
-    # Convert BF4H instructions to BF instructions and define the output filename
-    outputcode = tuple(table[line] for line in program if line in table)
+
+    # Convert BF4H instructions to BF instructions
+    outputcode = [table[line] for line in program if line in table]
+
+    # Syntax checks
+    if outputcode.count('[') > outputcode.count(']'):
+        raise SyntaxError('invalid syntax - unclosed jump-if-zero "[" instruction')
+    if outputcode.count('[') < outputcode.count(']'):
+        raise SyntaxError('invalid syntax - stray jump-unless-zero "]" instruction')
+
+    # Determine and define the output file's name
     outputname = pathlib.Path(f'./{args.file}').stem if not args.o else args.o
-    # Remove redundant .bf postfix if an output file name was specified ending in .bf
+    # Remove redundant .bf postfix if afile name was specified ending in ".bf"
     outputname = outputname[:-3] if outputname.endswith('.bf') else outputname
 
     with open(f'{outputname}.bf', 'w') as outputfile:
