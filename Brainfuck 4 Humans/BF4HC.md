@@ -21,6 +21,14 @@ $ python3 bf4hc.py program.bf4h -o output.bf
 
 ## Changelog
 
+#### v1.2 - February 16, 2022
+* New instruction: clr
+  * This instruction is equivalent to `[-]`
+* Backwards-incompatible changes regarding bf4h-style comments
+  * bf4h-style comments must start and terminate with `/*` and `*/` respectively
+  * Multi-line comments are now supported
+* The tab character is now considered a separator 
+
 #### v1.1 - February 02, 2022
 * Added syntax validation for loop( and ) {which is [ and ] in plain BF}
 * Minor optimizations

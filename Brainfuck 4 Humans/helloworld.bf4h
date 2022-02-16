@@ -1,8 +1,10 @@
-// "Hello World!" in bf4h
-// Translated instruction-for-instruction from the Wikipedia page for brainfuck
+/* 
+"Hello World!" in bf4h
+Translated instruction-for-instruction from the Wikipedia page for brainfuck
+*/
 
 incr incr incr incr incr incr incr incr loop( 
-    // These fancy loop() indents are not required, by the way!
+    /* These indents are not required, but recommended for readability */
     right incr incr incr incr 
     loop( 
         right incr incr right incr incr incr right incr 
@@ -38,4 +40,4 @@ out                                     "!"
 right;incr 
 incr
 out                                     [Newline] ASCII 10
-loop(;decr:)
+clr
