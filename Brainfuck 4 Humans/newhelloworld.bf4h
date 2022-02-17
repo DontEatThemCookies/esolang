@@ -1,0 +1,18 @@
+/* "Hello, World!" for bf4h 1.3+ */ 
+set:H right 
+set;e right 
+set:l right 
+set;l right 
+set:o right 
+setn 44 right /* , */
+setn 32 right /* [Whitespace] */
+set W right 
+set o right 
+set r right 
+set l right 
+set d right 
+set ! right
+setn 10 right /* [Newline] */
+left;left;left;left;left;left;left;left;left;left;left;left;left;left
+out;right;out;right;out;right;out;right;out;right;out;right;out;
+right;out;right;out;right;out;right;out;right;out;right;out;right;right

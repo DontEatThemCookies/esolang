@@ -1,6 +1,6 @@
 # brainfuck for humans (bf4h)
 ## Official Language Specification v1
-* Version 1.2, 02/16/2022
+* Version 1.3, 02/17/2022
 * Authored by David Costell
 
 ## Introduction
@@ -46,7 +46,7 @@ incrdecr
 In addition to the default brainfuck comments (which is any character
 that isn't a BF instruction), bf4h supports a higher-level form of commenting.
 Below is how to make a bf4h-style comment:
-```bf
+```
 /*
 Yes, they're just C-style comments.
 
@@ -55,14 +55,17 @@ raising a syntax error. Any instruction that is enclosed within a comment block
 are ignored. bf4h-style comments are mostly just to enhance readability, and
 the original BF style of commenting is still fully supported.
 */
+/* Also, comments must be separated from the comment markers, like this one. */
+/*This is not a proper comment, instructions inside of this will be executed!*/
 
-/* Instructions in this line are ignored: right incr out */
+/* Instructions in this line are ignored: inp out */
 But these instructions are not - inp out
 ```
 
 ## Instructions
-This table formally defines bf4h's instructions compared to their counterpart in the original BF:
+This section formally defines bf4h's instructions.
 
+This table shows directly-comparable bf4h instructions:
 | instruction                 	| bf4h  	| brainfuck 	| version |
 |-----------------------------	|-------	|-----------	|---------
 | move pointer left           	| left  	| <         	| 1.0
@@ -74,22 +77,27 @@ This table formally defines bf4h's instructions compared to their counterpart in
 | start loop (jump if zero)   	| loop( 	| [         	| 1.0
 | end loop (jump unless zero) 	| )     	| ]         	| 1.0
 | clr (sets cell value to zero) | clr       | \[-]          | 1.2
+| clear (alias for clr)         | clr       | \[-]          | 1.3
+
+In addition, there are instructions unique to bf4h:
+### since v1.3
+* `set [character]` Clears the current cell, sets the value of it to the ASCII code of `character`.
+* `setn [number]` Clears the current cell and sets the value of it to `number`.
 
 ## Implementations
-The de-facto official implementation of bf4h is **bf4hc** (bf4h compiler), written
+The official implementation of bf4h is **bf4hc** (bf4h compiler), written
 in Python (version 3.6+ required.) bf4hc cleanly transpiles to plain brainfuck.
 It's licensed under the terms of the WTFPL by David Costell (the author of this spec.)
 
 ## Miscellaneous
+UPDATE: this is kinda obsolete
 This is a code snippet to convert plain brainfuck to bf4h.
 For optimal results, remove any non-instruction characters in your BF code (such as comments)
 ```py
 strg = 'your brainfuck code here [,.]'
 
 # Separate instructions with whitespace then do the translation of symbols with .replace()
-output = ''.join(c if (i + 1) % 1 else c + ' ' for (i, c) in enumerate(list(strg)))
-.replace('<', 'left').replace('>', 'right').replace('+', 'incr').replace('-', 'decr')
-.replace('.','out').replace(',', 'inp').replace('[', 'loop(').replace(']', ')').strip()
+output = ''.join(c if (i + 1) % 1 else c + ' ' for (i, c) in enumerate(list(strg))).replace('<', 'left').replace('>', 'right').replace('+', 'incr').replace('-', 'decr').replace('.','out').replace(',', 'inp').replace('[', 'loop(').replace(']', ')').strip()
 ```
 
 ## Epilogue

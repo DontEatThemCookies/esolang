@@ -1,7 +1,8 @@
 # brainfuck for humans compiler (bf4hc)
 
-**bf4hc** is the de-facto official implementation of the bf4h esoteric language.
-It transcompiles bf4h programs into plain Brainfuck, and is 100% compliant with the specification for bf4h. All comments are ignored and do not make it into the output.
+**bf4hc** is the official implementation of the bf4h esoteric language.
+It transcompiles bf4h programs into plain Brainfuck, and is 100% compliant with the 
+specification for bf4h. All comments are ignored and do not make it into the output.
 
 ## Requirements
 * Python 3.6 or newer installed
@@ -20,6 +21,12 @@ $ python3 bf4hc.py program.bf4h -o output.bf
 ```
 
 ## Changelog
+
+### v1.3 - February 17, 2022
+* New instructions: set, setn
+  * `set [char]` clears the current cell and increments it by (char's ASCII code) times
+  * `setn [number]` clears the current cell and increments it by (number) times
+* Instruction alias "clear" added for instruction "clr"
 
 #### v1.2 - February 16, 2022
 * New instruction: clr
